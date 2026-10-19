@@ -1,0 +1,1461 @@
+#antworten {
+
+  border: none;
+  outline: none;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  background-color: #02bf18;
+  color: #ffffff;
+  padding: 14px 28px;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: inherit;
+  border-radius: 120px;
+
+
+  cursor: pointer;
+  box-shadow: 0 4px 14px rgb(2, 249, 245);
+  transition: all 0.2s ease-in-out;
+}
+
+
+#antworten {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(3, 99, 3, 0.967);
+}
+
+
+#aktuelle_frage {
+
+  border: none;
+  outline: none;
+
+
+  background-color: #90E39A;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 79%;
+  margin-left: auto;
+  margin-right: auto;
+  color: #000000;
+  padding: 14px 28px;
+  font-size: 24px;
+  font-weight: 600;
+  font-family: inherit;
+  border-radius: 120px;
+
+
+  cursor: pointer;
+  box-shadow: 0 4px 14px rgb(2, 6, 249);
+  transition: all 0.2s ease-in-out;
+}
+
+
+#aktuelle_frage {
+  transform: translateY(0);
+  box-shadow: 0 4px 10px #32A287;
+}
+
+.ButtonAntwort {
+
+  border: none;
+  outline: none;
+
+
+  color: #000000;
+  padding: 14px 28px;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: inherit;
+  border-radius: 120px;
+  cursor: pointer;
+
+
+  cursor: pointer;
+  box-shadow: 0 4px 14px rgb(249, 2, 2);
+  transition: all 0.2s ease-in-out;
+}
+
+
+.ButtonAntwort[data-zustand="offen"] {
+  background-color: #C9E3AC;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgb(21, 255, 68);
+}
+
+
+.ButtonAntwort[data-zustand="offen"] {
+  transform: translateY(0);
+  box-shadow: 0 4px 10px rgb(145, 156, 0);
+}
+
+
+.ButtonAntwort[data-zustand="richtig"] {
+  background-color: #BED558;
+  color: #000000;
+  box-shadow: 0 6px 20px #BED558;
+}
+
+.ButtonAntwort[data-zustand="falsch"] {
+  background-color: #D90429;
+  color: #000000;
+  box-shadow: 0 6px 20px #EF233C;
+}
+
+.ButtonAntwort:disabled {
+  cursor: not-allowed;
+  opacity: 0.8;
+}
+
+#naechsteFrage {
+
+  border: none;
+  outline: none;
+
+
+  color: #000000;
+  padding: 14px 28px;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: inherit;
+  border-radius: 120px;
+  cursor: pointer;
+
+
+  cursor: pointer;
+  box-shadow: 0 4px 14px rgb(11, 192, 44);
+  transition: all 0.2s ease-in-out;
+}
+
+
+#naechsteFrage {
+  background-color: #CDD1DE;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgb(11, 192, 44);
+}
+
+
+#naechsteFrage {
+  transform: translateY(0);
+  box-shadow: 0 4px 10px rgb(98, 83, 83);
+}
+
+#naechsteFrage:disabled {
+  background-color: rgb(255, 196, 0);
+}
+
+
+#allesZurueck {
+
+  border: none;
+  outline: none;
+
+
+  color: #000000;
+  padding: 14px 28px;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: inherit;
+  border-radius: 120px;
+  cursor: pointer;
+
+
+  cursor: pointer;
+  box-shadow: 0 4px 14px rgb(249, 2, 2);
+  transition: all 0.2s ease-in-out;
+}
+
+
+#allesZurueck {
+  background-color: #CDD1DE;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgb(11, 192, 44);
+}
+
+
+#allesZurueck {
+  transform: translateY(0);
+  box-shadow: 0 4px 10px rgb(98, 83, 83);
+}
+
+#allesZurueck:disabled {
+  background-color: rgb(255, 196, 0);
+}
+
+#aktuelleFrage {
+
+  border: none;
+  outline: none;
+
+
+  background-color: #03f6d6;
+  margin-bottom: 10px;
+  color: #000000;
+  padding: 14px 28px;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: inherit;
+  border-radius: 120px;
+  cursor: pointer;
+
+
+  cursor: pointer;
+  box-shadow: 0 4px 14px rgb(255, 0, 0);
+  transition: all 0.2s ease-in-out;
+}
+
+
+#aktuelleFrage {
+  background-color: #FA9500;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgb(11, 192, 44);
+}
+
+
+#aktuelleFrage {
+  transform: translateY(0);
+  box-shadow: 0 4px 10px #FFD791;
+}
+
+
+#buttonNundA {
+
+  border: none;
+  outline: none;
+
+
+  background-color: #EAEFBD;
+  color: #000000;
+  padding: 14px 28px;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: inherit;
+  border-radius: 120px;
+  cursor: pointer;
+
+
+  cursor: pointer;
+  box-shadow: 0 4px 14px rgb(43, 249, 2);
+  transition: all 0.2s ease-in-out;
+}
+
+
+#buttonNundA {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgb(192, 180, 11);
+}
+
+
+#buttonNundA {
+  transform: translateY(0);
+  box-shadow: 0 4px 10px rgb(192, 180, 11);
+}
+
+#zweiButton {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+
+#Punkte {
+
+  border: none;
+  outline: none;
+
+
+  background-color: #EA9010;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 89%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  color: #ffffff;
+  padding: 14px 28px;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: inherit;
+  border-radius: 120px;
+  cursor: pointer;
+
+
+  cursor: pointer;
+  box-shadow: 0 4px 14px rgb(249, 2, 2);
+  transition: all 0.2s ease-in-out;
+}
+
+
+#Punkte {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgb(81, 81, 81);
+}
+
+#resetQuiz {
+
+  border: none;
+  outline: none;
+
+
+  background-color: #03f6d6;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 29%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  color: #00ffcc;
+  padding: 14px 28px;
+  font-size: 22px;
+  font-weight: 600;
+  font-family: inherit;
+  border-radius: 120px;
+  cursor: pointer;
+
+
+  cursor: pointer;
+  box-shadow: 0 4px 14px rgb(249, 2, 2);
+  transition: all 0.2s ease-in-out;
+}
+
+
+#resetQuiz {
+  background-color: #1900ff;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgb(11, 192, 44);
+}
+
+
+#endNachricht {
+
+  border: none;
+  outline: none;
+
+
+  background-color: #0b03f6;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  color: #00ffcc;
+  padding: 14px 28px;
+  font-size: 35px;
+  font-weight: 600;
+  font-family: inherit;
+  border-radius: 120px;
+  cursor: pointer;
+
+
+  cursor: pointer;
+  box-shadow: 0 4px 14px rgb(249, 2, 2);
+  transition: all 0.2s ease-in-out;
+}
+
+
+#endNachricht {
+  background-color: #1900ff;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgb(11, 192, 44);
+}
+
+#wieVieleFragenRichtig {
+
+  border: none;
+  outline: none;
+
+
+  background-color: #03f6d6;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 45%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  color: #00ffcc;
+  padding: 14px 28px;
+  font-size: 22px;
+  font-weight: 600;
+  font-family: inherit;
+  border-radius: 120px;
+  cursor: pointer;
+
+
+  cursor: pointer;
+  box-shadow: 0 4px 14px rgb(249, 2, 2);
+  transition: all 0.2s ease-in-out;
+}
+
+
+#wieVieleFragenRichtig {
+  background-color: #1900ff;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgb(11, 192, 44);
+}
+
+
+#ergebnis {
+
+  border: none;
+  outline: none;
+
+
+  background-color: #03f6d6;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  color: #00ffcc;
+  padding: 14px 28px;
+  font-size: 22px;
+  font-weight: 600;
+  font-family: inherit;
+  border-radius: 120px;
+  cursor: pointer;
+
+
+  cursor: pointer;
+  box-shadow: 0 4px 14px rgb(249, 2, 2);
+  transition: all 0.2s ease-in-out;
+}
+
+
+#ergebnis {
+  background-color: #00ffd0;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgb(11, 192, 44);
+}
+
+.SchwierigkeitsButton[data-zustand="true"] {
+
+  border: none;
+  outline: none;
+
+
+  background-color: #AFFC41;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  color: #000000;
+  padding: 14px 28px;
+  font-size: 22px;
+  font-weight: 600;
+  font-family: inherit;
+  border-radius: 120px;
+  cursor: pointer;
+
+
+  cursor: pointer;
+  box-shadow: 0 4px 14px rgb(0, 0, 0);
+  transition: all 0.2s ease-in-out;
+}
+
+.SchwierigkeitsButton[data-zustand="false"] {
+
+  border: none;
+  outline: none;
+
+
+  background-color: #ffffff;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  color: #000000;
+  padding: 14px 28px;
+  font-size: 22px;
+  font-weight: 600;
+  font-family: inherit;
+  border-radius: 120px;
+  cursor: pointer;
+
+
+  cursor: pointer;
+  box-shadow: 0 4px 14px rgb(0, 0, 0);
+  transition: all 0.2s ease-in-out;
+}
+
+.SchwierigkeitsButton:not([data-zustand="true"]):hover {
+  background-color: #B2FF9E;
+  transform: scale(1.05);
+  box-shadow: 0 4px 14px rgba(0, 0, 0);
+}
+
+.SchwierigkeitsButton[data-zustand="true"] {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+/*#SpielstartButton*/
+
+#SpielstartButton {
+
+  border: none;
+  outline: none;
+
+
+  background-color: rgb(255, 196, 0);
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  color: #000000;
+  padding: 14px 28px;
+  font-size: 22px;
+  font-weight: 600;
+  font-family: inherit;
+  border-radius: 120px;
+
+
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+#SpielstartButton {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgb(0, 0, 0);
+}
+
+#SpielstartButton:disabled {
+  background-color: #EA9010;
+}
+
+/*BenutzernameEingeben*/
+#BenutzernameEingeben {
+
+  border: none;
+  outline: none;
+
+
+  background-color: #F5CB5C;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 71%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  color: #000000;
+  padding: 14px 28px;
+  font-size: 22px;
+  font-weight: 600;
+  font-family: inherit;
+  border-radius: 120px;
+
+
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+#BenutzernameEingeben {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgb(0, 0, 0);
+}
+
+/*SchwierigkeitsgradAuswählen*/
+#SchwierigkeitsgradAuswählen {
+
+  border: none;
+  outline: none;
+
+  display: inline-block;
+  background-color: #CFDBD5;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  color: hsl(0, 0%, 0%);
+  padding: 14px 28px;
+  font-size: 28px;
+  font-weight: 600;
+  font-family: inherit;
+  border-radius: 120px;
+
+
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+#SchwierigkeitsgradAuswählen {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgb(0, 0, 0);
+}
+
+#emoji {
+  width: 100%;
+  font-size: 10rem;
+  transform: translate(375px, -133px);
+
+}
+
+
+.wisch-effekt {
+  animation: vonRechtsEinfliegen 0.6s ease-in-out;
+  will-change: transform, opacity;
+  /* Sagt dem Browser, dass eine Bewegung kommt */
+}
+
+@keyframes vonRechtsEinfliegen {
+
+  /* 1. Das alte Quiz-Element startet ganz normal in der Mitte */
+  0% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+
+  /* 2. Nach der Hälfte der Zeit (knapp 200ms) fliegt es links raus und wird unsichtbar */
+  49% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+
+
+  50% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+
+#aktuelle_frage {
+  /* Startet die Animation bei jedem Erscheinen von einen (neuem Key) für 0.5 Sekunden */
+  animation: frageErscheinen 0.5s ease-out forwards;
+}
+
+@keyframes frageErscheinen {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+
+/* ========================================================================= */
+
+/* Grundzustand bleibt flüssig beim Umschalten */
+#Startscreen {
+  min-height: 100vh;
+  box-sizing: border-box;
+  transition: box-shadow 0.5s ease-in-out;
+}
+
+/* 1. EINFACH:Natur-Animation*/
+#Startscreen[data-gewaehlt="Einfach"] {
+  animation: naturRand 2s infinite alternate ease-in-out;
+}
+
+@keyframes naturRand {
+  0% {
+    box-shadow: inset 0 0 30px #27ae60, inset 0 0 45px #1abc9c;
+  }
+
+  100% {
+    box-shadow: inset 0 0 45px #2ecc71, inset 0 0 65px #a3cb38;
+  }
+}
+
+/* 2. MITTEL:elektrischer/sonniger Effekt */
+#Startscreen[data-gewaehlt="Mittel"] {
+  animation: gelberRand 1.5s infinite alternate ease-in-out;
+}
+
+@keyframes gelberRand {
+  0% {
+    box-shadow: inset 0 0 25px #f1c40f, inset 0 0 40px #f39c12;
+  }
+
+  100% {
+    box-shadow: inset 0 0 45px #f1c40f, inset 0 0 70px #fff200;
+  }
+}
+
+/* 3. ALLES:Rainbow-Effekt*/
+#Startscreen[data-gewaehlt="Alles"] {
+  animation: regenbogenRand 5s linear infinite;
+}
+
+@keyframes regenbogenRand {
+  0% {
+    box-shadow: inset 0 0 40px #e74c3c;
+  }
+
+  20% {
+    box-shadow: inset 0 0 40px #e67e22;
+  }
+
+  40% {
+    box-shadow: inset 0 0 40px #f1c40f;
+  }
+
+  60% {
+    box-shadow: inset 0 0 40px #2ecc71;
+  }
+
+  80% {
+    box-shadow: inset 0 0 40px #3498db;
+  }
+
+  100% {
+    box-shadow: inset 0 0 40px #9b59b6;
+  }
+}
+
+/* 4. SCHWIERIG:Feuer-Effekt */
+#Startscreen[data-gewaehlt="Schwierig"] {
+  animation: feuerRand 1.2s infinite alternate ease-in-out;
+}
+
+@keyframes feuerRand {
+  0% {
+    box-shadow: inset 0 0 30px #e67e22, inset 0 0 50px #e74c3c;
+  }
+
+  100% {
+    box-shadow: inset 0 0 55px #f1c40f, inset 0 0 85px #e74c3c;
+  }
+}
+
+/* ========================================================================= */
+/*Effekte für die Schwierigkeits-Buttons, wenn sie ausgewählt sind*/
+
+/* Grundzustand aller Schwierigkeits-Buttons */
+.SchwierigkeitsButton {
+  transition: all 0.3s ease-in-out;
+  border: 2px solid transparent;
+  cursor: pointer;
+}
+
+/*Einfach button effect*/
+.SchwierigkeitsButton[data-zustand="true"]:nth-child(1) {
+  animation: naturRandButton 2s infinite alternate ease-in-out;
+  border-color: #2ecc71;
+}
+
+@keyframes naturRandButton {
+  0% {
+    box-shadow: 0 0 10px #27ae60;
+  }
+
+  100% {
+    box-shadow: 0 0 20px #a3cb38;
+  }
+}
+
+/*Mittel button effect*/
+.SchwierigkeitsButton[data-zustand="true"]:nth-child(2) {
+  animation: gelberRandButton 1.5s infinite alternate ease-in-out;
+  border-color: #f1c40f;
+}
+
+@keyframes gelberRandButton {
+  0% {
+    box-shadow: 0 0 10px #f39c12;
+  }
+
+  100% {
+    box-shadow: 0 0 22px #fff200;
+  }
+}
+
+/*Schwierig button effect*/
+.SchwierigkeitsButton[data-zustand="true"]:nth-child(3) {
+  animation: feuerRandButton 1.2s infinite alternate ease-in-out;
+  border-color: #e74c3c;
+}
+
+@keyframes feuerRandButton {
+  0% {
+    box-shadow: 0 0 12px #e67e22, 0 0 5px #e74c3c;
+  }
+
+  100% {
+    box-shadow: 0 0 24px #f1c40f, 0 0 10px #e74c3c;
+  }
+}
+
+/*Alle Fragen button effect*/
+.SchwierigkeitsButton[data-zustand="true"]:nth-child(4) {
+  animation: regenbogenRandButton 5s linear infinite;
+}
+
+@keyframes regenbogenRandButton {
+  0% {
+    box-shadow: 0 0 15px #e74c3c;
+    border-color: #e74c3c;
+  }
+
+  20% {
+    box-shadow: 0 0 15px #e67e22;
+    border-color: #e67e22;
+  }
+
+  40% {
+    box-shadow: 0 0 15px #f1c40f;
+    border-color: #f1c40f;
+  }
+
+  60% {
+    box-shadow: 0 0 15px #2ecc71;
+    border-color: #2ecc71;
+  }
+
+  80% {
+    box-shadow: 0 0 15px #3498db;
+    border-color: #3498db;
+  }
+
+  100% {
+    box-shadow: 0 0 15px #9b59b6;
+    border-color: #9b59b6;
+  }
+}
+
+/* ========================================================================= */
+
+
+
+
+
+
+
+/* ========================================================================= */
+/* AKTUALISIERT: Buttons leuchten UND ändern ihre Hintergrundfarbe */
+
+/* Grundzustand aller Schwierigkeits-Buttons */
+.SchwierigkeitsButton {
+  transition: all 0.3s ease-in-out;
+  border: 2px solid transparent;
+  cursor: pointer;
+  background-color: #f5f5f5;
+  /* Deine Standard-Buttonfarbe im Ruhezustand */
+  color: #333;
+  /* Standard-Schriftfarbe */
+}
+
+/* 1. EINFACH BUTTON: Natur-Grün füllt den Hintergrund */
+.SchwierigkeitsButton[data-zustand="true"]:nth-child(1) {
+  animation: naturRandButton 2s infinite alternate ease-in-out;
+  border-color: #2ecc71;
+  color: white;
+  /* Schrift wird weiß für besseren Kontrast */
+}
+
+@keyframes naturRandButton {
+  0% {
+    box-shadow: 0 0 10px #27ae60;
+    background-color: #27ae60;
+  }
+
+  100% {
+    box-shadow: 0 0 20px #a3cb38;
+    background-color: #2ecc71;
+  }
+}
+
+/* 2. MITTEL BUTTON: Warmes Gelb/Orange füllt den Hintergrund */
+.SchwierigkeitsButton[data-zustand="true"]:nth-child(2) {
+  animation: gelberRandButton 1.5s infinite alternate ease-in-out;
+  border-color: #f1c40f;
+  color: #333;
+  /* Dunkle Schrift auf gelbem Grund liest sich besser */
+}
+
+@keyframes gelberRandButton {
+  0% {
+    box-shadow: 0 0 10px #f39c12;
+    background-color: #f39c12;
+  }
+
+  100% {
+    box-shadow: 0 0 22px #fff200;
+    background-color: #f1c40f;
+  }
+}
+
+/* 3. SCHWIERIG BUTTON: Pulsierendes Feuer-Rot im Hintergrund */
+.SchwierigkeitsButton[data-zustand="true"]:nth-child(3) {
+  animation: feuerRandButton 1.2s infinite alternate ease-in-out;
+  border-color: #e74c3c;
+  color: white;
+}
+
+@keyframes feuerRandButton {
+  0% {
+    box-shadow: 0 0 12px #e67e22, 0 0 5px #e74c3c;
+    background-color: #d35400;
+  }
+
+  100% {
+    box-shadow: 0 0 24px #f1c40f, 0 0 10px #e74c3c;
+    background-color: #e74c3c;
+  }
+}
+
+/* 4. ALLES BUTTON: Der Hintergrund wandert fließend durch den Regenbogen */
+.SchwierigkeitsButton[data-zustand="true"]:nth-child(4) {
+  animation: regenbogenRandButton 5s linear infinite;
+  color: rgb(255, 255, 255);
+}
+
+@keyframes regenbogenRandButton {
+  0% {
+    box-shadow: 0 0 15px #e74c3c;
+    border-color: #e74c3c;
+    background-color: #e74c3c;
+    /* Rot */
+  }
+
+  20% {
+    box-shadow: 0 0 15px #e67e22;
+    border-color: #e67e22;
+    background-color: #e67e22;
+    /* Orange */
+  }
+
+  40% {
+    box-shadow: 0 0 15px #f1c40f;
+    border-color: #f1c40f;
+    background-color: #f1c40f;
+    color: #333;
+    /* Kurz dunkle Schrift für Gelb */
+  }
+
+  60% {
+    box-shadow: 0 0 15px #2ecc71;
+    border-color: #2ecc71;
+    background-color: #2ecc71;
+    color: white;
+    /* Wieder weiße Schrift */
+  }
+
+  80% {
+    box-shadow: 0 0 15px #3498db;
+    border-color: #3498db;
+    background-color: #3498db;
+  }
+
+  100% {
+    box-shadow: 0 0 15px #9b59b6;
+    border-color: #9b59b6;
+    background-color: #9b59b6;
+  }
+}
+
+/* ========================================================================= */
+
+
+
+#BenutzernameEingeben {
+  margin: 25px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+
+#Benutzername {
+  width: 100%;
+  padding: 12px 16px;
+  font-size: 16px;
+  font-family: inherit;
+  color: #2c3e50;
+  background-color: #ffffff;
+  border: 2px solid #bdc3c7;
+  border-radius: 8px;
+  transition: all 0.3s ease-in-out;
+  outline: none;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  text-align: center;
+  font-weight: bold;
+}
+
+/* Leuchteffekt beim Reinklicken */
+#Benutzername:focus {
+  border-color: #3498db;
+  box-shadow: 0 0 10px rgba(52, 152, 219, 0.3);
+  transform: translateY(-1px);
+}
+
+/* ========================================================================= */
+
+
+
+#BenutzernameEingeben label {
+  font-size: 16px;
+  font-weight: 600;
+  color: #2c3e50;
+  letter-spacing: 0.5px;
+}
+
+
+#Benutzername {
+  width: 100%;
+  max-width: 300px;
+  padding: 12px 16px;
+  font-size: 16px;
+  font-family: inherit;
+  color: #2c3e50;
+  background-color: #ffffff;
+
+
+  border: 2px solid #bdc3c7;
+  border-radius: 8px;
+
+
+  transition: all 0.3s ease-in-out;
+  outline: none;
+
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+
+#Benutzername::placeholder {
+  color: #95a5a6;
+}
+
+
+#Benutzername:focus {
+  border-color: #3498db;
+  /* Rand wird modern blau */
+  box-shadow: 0 0 10px rgba(52, 152, 219, 0.3);
+  /* Sanfter, blauer Glow nach außen */
+  transform: translateY(-1px);
+  /* Minimaler Schwebe-Effekt */
+}
+
+/* ========================================================================= */
+/* ========================================================================= */
+/* KORREKTUR: Farb-Reihenfolge des Timers exakt sortiert */
+
+/* Die äußere Hülle des Balkens */
+.timer-container {
+  width: 100%;
+  max-width: 1000px;
+  height: 14px;
+  background-color: #e0e0e0;
+  border-radius: 7px;
+  margin: 15px auto;
+  overflow: hidden;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 3px auto 15px auto;
+}
+
+/* Der farbige Balken selbst */
+.timer-balken {
+  height: 100%;
+  border-radius: 7px;
+  /* Macht das Schrumpfen der Breite im Sekundentakt butterweich */
+  transition: width 1s linear, background-color 1s linear;
+}
+
+/* --- GRÜN: Von 100% runter bis 60% (15 bis 9 Sekunden übrig) --- */
+.timer-container [data-prozent="100"],
+.timer-container [data-prozent^="9"],
+.timer-container [data-prozent^="8"] {
+  background-color: #27ae60 !important;/* Schönes sattes Grün */
+}
+.timer-container [data-prozent^="7"],
+.timer-container [data-prozent^="6"] {
+  background-color:#edf040;
+}
+
+/* --- GELB/ORANGE: Von 59% runter bis 30% (9 bis 5 Sekunden übrig) --- */
+.timer-container [data-prozent^="5"],
+.timer-container [data-prozent^="4"],
+.timer-container [data-prozent^="3"] {
+  background-color: #f39c12; /* Warn-Orange/Gelb */
+}
+
+/* --- ROT: Unter 30% (weniger als 4 Sekunden übrig) --- */
+.timer-container [data-prozent^="2"],
+.timer-container [data-prozent^="1"]:not([data-prozent="100"]), 
+.timer-container [data-prozent^="0"],
+.timer-container [data-prozent="0"] {
+  /* Startfarbe ist ein sattes Alarm-Rot */
+  background-color: #c0392b; 
+  animation: dunkelRotAlarm 0.5s infinite alternate ease-in-out;
+}
+
+@keyframes dunkelRotAlarm {
+  0% { 
+    background-color: #c0392b; /* Normales Rot */
+    box-shadow: 0 0 10px rgb(218, 66, 49);
+  }
+  100% { 
+    background-color: #9d0000; /* Tiefes, dunkles Weinrot */
+    box-shadow: 0 0 4px rgb(255, 1, 1);
+  }
+}
+/* ========================================================================= */
+.HighscoreTabellen{
+  display:flex;
+}
+.TabellenBereich{
+  width:25%;
+  margin:20px;
+}
+.Tabellen{
+  border-collapse: collapse;
+  width:100%
+}
+td,th{
+  border:1px solid black;
+}
+.TabellenBereich>h2{
+  border:1px solid black;
+}
+/* ========================================================================= */
+/* NEU: Der frostige Eis-Effekt für den Bildschirmrand */
+
+#Startscreen[data-gewaehlt="Ice"] {
+  /* Das Eis breitet sich innerhalb von 1.5 Sekunden voll aus */
+  box-shadow: inset 0 0 60px rgba(173, 216, 230, 0.8), inset 0 0 100px rgba(0, 206, 209, 0.4);
+  background-color: #f0f8ff; 
+  
+  /* Macht den Übergang beim "Einfrieren" schön weich */
+  transition: all 0.3s ease-in-out;
+}
+
+/* Der Highscore-Button fängt sofort an wie verrückt zu zittern/frieren */
+#Startscreen[data-gewaehlt="Ice"] #HighscoreButton {
+  background-color: #e0f7fa;
+  border-color: #4dd0e1;
+  color: #006064;
+  font-weight: bold;
+  /* 0.1 Sekunden Dauer macht das Zittern schön hektisch, bis das Fenster aufbricht */
+  animation: eisZittern 0.1s infinite alternate; 
+}
+
+@keyframes eisZittern {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  100% { transform: translate(-1px, -2px) rotate(-0.5deg); }
+}
+
+
+/* Styling für den Highscore-Button im Normalzustand */
+#HighscoreButton {
+
+  border: none;
+  outline: none;
+
+
+  background-color: #03CEA4;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 14%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  color: #000000;
+  padding: 14px 28px;
+  font-size: 22px;
+  font-weight: 600;
+  font-family: inherit;
+  border-radius: 10px;
+  cursor: pointer;
+
+
+  cursor: pointer;
+  box-shadow: 0 4px 14px rgb(0, 0, 0);
+  transition: all 0.2s ease-in-out;
+}
+
+/* Wenn der Eis-Modus aktiv ist, bekommt auch der Button einen coolen Frost-Look */
+#Startscreen[data-gewaehlt="Ice"] #HighscoreButton:hover {
+  background-color: #e0f7fa;
+  border-color: #4dd0e1;
+  color: #006064;
+  font-weight: bold;
+  /* Animiertes, kristallartiges Eisleuchten um den Button herum */
+  animation: eisPulsButton 1.5s infinite alternate ease-in-out;
+}
+
+@keyframes eisPulsButton {
+  0% {
+    box-shadow: 0 0 8px rgba(0, 229, 255, 0.4), 0 0 2px rgba(255, 255, 255, 0.8);
+  }
+  100% {
+    box-shadow: 0 0 20px rgba(0, 229, 255, 0.8), 0 0 8px rgba(255, 255, 255, 1);
+    transform: scale(1.02); /* Lässt den Button minimal "frieren"/zittern */
+  }
+}
+/* ========================================================================= */
+
+
+
+
+
+/* ========================================================================= */
+/* 1. VISUELLER TIMER-BALKEN (ProgressBar)                                   */
+/* ========================================================================= */
+
+/* Die äußere Hülle des Balkens */
+.timer-container {
+  width: 100%;
+  max-width: 500px;
+  height: 14px;
+  background-color: #e0e0e0;
+  border-radius: 7px;
+  margin: 30px auto 15px auto; /* 30px Abstand nach oben, zentriert */
+  overflow: hidden;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Der schrumpfende Balken selbst */
+.timer-balken {
+  height: 100%;
+  border-radius: 7px;
+  /* Macht das Schrumpfen und Farbwechseln im Sekundentakt butterweich */
+  transition: width 1s linear, background-color 1s linear;
+}
+
+/* --- GRÜN: Start bei exakt 100% und alle 90er, 80er, 70er, 60er Bereiche --- */
+.timer-container [data-prozent="100"],
+.timer-container [data-prozent^="9"],
+.timer-container [data-prozent^="8"],
+.timer-container [data-prozent^="7"],
+.timer-container [data-prozent^="6"] {
+  background-color: #27ae60 !important;
+}
+
+/* --- GELB/ORANGE: Von 59% bis 30% --- */
+.timer-container [data-prozent^="5"],
+.timer-container [data-prozent^="4"],
+.timer-container [data-prozent^="3"] {
+  background-color: #f39c12;
+}
+
+/* --- ROT / DUNKELROT ALARM: Unter 30% (Ausschluss der perfekten 100) --- */
+.timer-container [data-prozent^="2"],
+.timer-container [data-prozent^="1"]:not([data-prozent="100"]), 
+.timer-container [data-prozent^="0"],
+.timer-container [data-prozent="0"] {
+  background-color: #c0392b;
+  /* Startet die feurig pulsierende Dunkelrot-Animation */
+  animation: dunkelRotAlarm 0.4s infinite alternate ease-in-out;
+}
+
+/* Pulsieren zwischen Rot und tiefem Dunkelrot in den letzten Sekunden */
+@keyframes dunkelRotAlarm {
+  0% { 
+    background-color: #c0392b;
+    box-shadow: 0 0 10px rgba(192, 57, 43, 0.5);
+  }
+  100% { 
+    background-color: #4a0000;
+    box-shadow: 0 0 4px rgba(74, 0, 0, 0.2);
+  }
+}
+
+
+/* ========================================================================= */
+/* 2. HIGHSCORE SEITE & TABELLEN (Für Klassen mit Leerzeichen)                */
+/* ========================================================================= */
+
+/* Der Haupt-Hintergrund/Container für die Highscores */
+.highscore-wrapper h1 {
+  text-align: center;
+  color: #2c3e50;
+  font-size: 2.5rem;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Der Zurück-Button */
+.highscore-zurueck-btn {
+  display: block;
+  margin: 10px auto 25px auto;
+  padding: 10px 25px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  background-color: #34495e;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.highscore-zurueck-btn:hover {
+  background-color: #2c3e50;
+}
+
+/* Flexbox-Container, der alle 4 Tabellen nebeneinander anordnet */
+.HighscoreTabellen {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Basis-Design für alle 4 Tabellen-Boxen */
+.TabellenBereich {
+  flex: 1 1 calc(25% - 20px); /* 4 Spalten nebeneinander, falls Platz da ist */
+  min-width: 260px;           /* Verhindert Zusammenquetschen auf Handys */
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+  border: 1px solid #eef2f3;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Zarter Hover-Effekt, wenn man über eine Tabellen-Box fährt */
+.TabellenBereich:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+}
+
+/* Die h2-Überschriften innerhalb der Boxen */
+.TabellenBereich h2 {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-size: 1.4rem;
+  padding-bottom: 8px;
+  border-bottom: 3px solid #3498db;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Farbige Rahmen-Unterstreichungen je nach Schwierigkeitsgrad */
+.Einfache h2 { border-bottom-color: #2ecc71; color: #27ae60; }
+.Mittel h2 { border-bottom-color: #f1c40f; color: #d35400; }
+.Schwierig h2 { border-bottom-color: #e74c3c; color: #c0392b; }
+.Alle h2 { border-bottom-color: #9b59b6; color: #8e44ad; }
+
+/* Das eigentliche HTML-Table-Element */
+.Tabellen {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  font-size: 0.95rem;
+}
+
+/* Tabellenkopf (Spaltennamen) */
+.Tabellen thead th {
+  background-color: #f8f9fa;
+  color: #7f8c8d;
+  padding: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  letter-spacing: 0.5px;
+  border-bottom: 2px solid #eaeaea;
+}
+
+/* Tabellenzellen (Inhalt) */
+.Tabellen tbody td {
+  padding: 12px 10px;
+  border-bottom: 1px solid #f1f2f6;
+  color: #333;
+}
+
+/* Zebra-Muster: Jede zweite Zeile wird ganz leicht grau */
+.Tabellen tbody tr:nth-child(even) {
+  background-color: #fafafa;
+}
+
+/* Zeilen-Leuchten, wenn man mit der Maus im Highscore sucht */
+.Tabellen tbody tr:hover {
+  background-color: #f1f7fe;
+}
+
+/* Schöne Ausrichtung für die Prozentzahlen auf der rechten Seite */
+.Tabellen th:last-child,
+.Tabellen td:last-child {
+  text-align: right;
+  font-weight: bold;
+  font-variant-numeric: tabular-nums; /* Verhindert Wackeln der Zahlen */
+}
+
+
+/* ========================================================================= */
+/* KORREKTUR: Überschrift repariert & Button-Design runderneuert             */
+/* ========================================================================= */
+
+#HighscoreUeberschrieft {
+  text-align: center;
+  font-family: 'Segoe UI', system-ui, sans-serif;
+  font-size: 3.2rem;
+  font-weight: 800;
+  letter-spacing: -0.5px;
+  margin-top: 30px;
+  margin-bottom: 5px;
+  
+  /* WICHTIG: Das verhindert, dass die untere Hälfte abgeschnitten wird */
+  padding-bottom: 15px; 
+  line-height: 1.2;
+  display: block;
+  
+  /* Der Farbverlauf */
+  background: linear-gradient(135deg, #2c3e50 0%, #4a5668 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Der neue, deutlich modernere Zurück-Button */
+.highscore-zurueck-btn {
+  display: block;
+  margin: 10px auto 35px auto;
+  padding: 12px 35px;
+  font-size: 1.05rem;
+  font-weight: 700;
+  text-transform: uppercase; /* Schickere Großbuchstaben */
+  letter-spacing: 1px;
+  
+  /* Edles Dunkelgrau kombiniert mit einem dünnen, hellen Rahmen */
+  color: #34495e;
+  background-color: #ffffff;
+  border: 2px solid #34495e;
+  border-radius: 8px; /* Leicht abgerundete Ecken statt Pille */
+  
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  transition: all 0.25s ease-in-out;
+}
+
+/* Animation beim Drüberfahren (Hover) */
+.highscore-zurueck-btn:hover {
+  /* Invertiert die Farben beim Drüberfahren: Button wird dunkel, Schrift weiß */
+  background-color: #34495e;
+  color: #ffffff;
+  
+  transform: scale(1.05); /* Der Button wird leicht größer */
+  box-shadow: 0 6px 12px rgba(52, 73, 94, 0.3); /* Schöner Glüheffekt */
+}
+
+/* Animation beim Anklicken (Click Effect) */
+.highscore-zurueck-btn:active {
+  transform: scale(0.98); /* Drückt sich beim Klick leicht rein */
+}
